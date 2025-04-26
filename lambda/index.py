@@ -76,7 +76,7 @@ def lambda_handler(event, context):
         
         
         # APIを呼び出し
-        theWebApiUrl = "https://5afa-34-83-88-225.ngrok-free.app" # CHANGE HERE !
+        theWebApiUrl = "https://52ad-35-247-70-238.ngrok-free.app" # CHANGE HERE !
         req = urllib.request.Request(
                 f"{theWebApiUrl}/generate",
                 data=theJsonDumpEncoded,
